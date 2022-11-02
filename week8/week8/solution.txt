@@ -1,0 +1,12 @@
+1a) studentInfo = new (nothrow) student[n];
+1b) The return value will be a NULL pointer or a std::bad_aloc.
+    
+    bool checkMemAlloc(student *ptr)
+    {
+    if (!ptr)
+        return false;
+    else
+        return true;
+    }
+
+1c) delete[] studentInfo;
